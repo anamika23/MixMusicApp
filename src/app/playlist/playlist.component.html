@@ -1,0 +1,33 @@
+<div class="container" *ngIf="isRender"> 
+
+  <div class= "header"><p><b>Feel the Rhythm</b></p></div>
+  
+  <div class="body">
+    <div class="languages">
+      <ul>
+        <li><p (click)="getEnglishSongs()">English</p></li>
+        <li><p (click)="getHindiSongs()">Hindi</p></li>
+      </ul>
+    </div>
+
+    <div class="playlist">
+      <h2 class="tag">Online Radio</h2>
+      <div class="list" *ngFor="let list of songs" (click)="playSong(list)">
+         <i class="fa fa-play-circle-o" ></i>
+         {{list.name}}
+       </div>
+    
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="player">
+      <audio controls id="audio" >
+        <source id="audio-player" src="http://desimusicmix.com:8000/HQ" type="audio/mpeg">
+             Your browser does not support the audio element.
+      </audio>
+    </div>  
+  </div>
+  
+
+</div>

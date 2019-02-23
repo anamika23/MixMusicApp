@@ -1,0 +1,92 @@
+[
+    {
+        "id": 14,
+        "name": "Desi music mix",
+        "city": "India",
+        "file": "http://desimusicmix.com:8000/HQ"
+    },
+    {
+        "id": 15,
+        "name": "Fever FM ",
+        "city": "India",
+        "file": "http://live.canstream.co.uk:8000/asianfever.mp3"
+    },
+    {
+        "id": 16,
+        "name": "Indian Beats",
+        "city": "India",
+        "file": "http://51.15.152.81:8892/stream?icy=http"
+    },
+    {
+        "id": 17,
+        "name": "Non Stop Hindi",
+        "city": "India",
+        "file": "http://s5.voscast.com:8216/;?icy=http"
+    },
+    {
+        "id": 18,
+        "name": "Radio Bolly FM",
+        "city": "India",
+        "file": "http://64.71.79.181:8201/hd?icy=http"
+    },
+    {
+        "id": 19,
+        "name": "Radio city",
+        "city": "India",
+        "file": "http://prclive1.listenon.in:9960/;"
+    },
+    {
+        "id": 20,
+        "name": "Radio Dil",
+        "city": "New York",
+        "file": "http://50.22.253.45:8000/radiodil2"
+    },
+    {
+        "id": 21,
+        "name": "Radio Firangi",
+        "city": "USA",
+        "file": "http://streaming.radio.co/s47e8ad3e4/listen"
+    },
+    {
+        "id": 22,
+        "name": "Radio HSL",
+        "city": "India",
+        "file": "http://50.7.68.251:7064/stream"
+    },
+    {
+        "id": 23,
+        "name": "Radio Rhythm",
+        "city": "Australia",
+        "file": "http://lyra.shoutca.st:8180/stream"
+    },
+    {
+        "id": 24,
+        "name": "Radio SBS FM",
+        "city": "Netherlands",
+        "file": "http://live.radiosbsfm.nl/radiosbsfm?type=.mp3/;stream.mp3"
+    },
+    {
+        "id": 25,
+        "name": "Radio spice",
+        "city": "UAE",
+        "file": "http://ice5.securenetsystems.net:80/1054"
+    },
+    {
+        "id": 26,
+        "name": "Radio XL Hindi",
+        "city": "UK",
+        "file": "http://sc18.strictlyhosting.co.uk:8000/;stream.mp3"
+    },
+    {
+        "id": 27,
+        "name": "SMSK Hindi Radio",
+        "city": "India",
+        "file": "http://streaming.shoutcast.com/SMSKHindiRadio?lang=en-US%2cen%3bq%3d0.8"
+    },
+    {
+        "id": 28,
+        "name": "Taal Radio",
+        "city": "India",
+        "file": "http://192.151.153.234:9998/taal?icy=http"
+    }
+]

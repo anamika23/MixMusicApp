@@ -1,0 +1,116 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 2px;
+    font-size: 32px;
+    font-style: cursive;
+    color: deeppink;
+    text-align: center; 
+    font-family: 'blackjack', sans-serif;
+}
+
+.body {
+    padding-bottom: 8%;
+    margin: auto;
+    display: flex;
+    justify-content: center;   
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height:70px;
+    background-color: rgb(32, 29, 29);
+}
+  
+.body .languages{
+    width: 150px;
+    height: 150px;;
+    margin: 1%;
+    box-shadow: 0 1px 6px 0px #00000054;
+    padding: 1%;
+    font-size: 20px;
+    background-color: rgba(255,255,255,.1);
+   
+}
+
+ul > li {
+    opacity: 1.0;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+ul>li:hover{
+    color: deeppink;
+}
+
+ul>li:active{
+    color: deeppink;
+}
+
+.eng{
+    color: white; 
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+.eng:hover{
+    color: deeppink;
+}
+.eng:active{
+    color: deeppink;
+}
+
+.body .playlist{
+     box-shadow: 2px 4px 16px 2px  #00000054;
+     padding: 1%;
+     margin: 1%;
+     width: 250px;
+     color: white;
+     min-height: 376px;
+     background-color: rgba(255,255,255,.1);
+     
+}
+.tag{
+    text-align: center;
+}
+ 
+audio {
+    width: 100%;
+    height: 40px;
+    color: #95B9C7;
+    margin-top: 15px;
+}
+
+.list:hover{
+   color: deeppink;
+}
+     
+@font-face {
+    font-family: 'greatvibes';
+	src: url('/assets/fonts/GreatVibes-Regular.otf'); 
+}
+@font-face {
+    font-family: 'alex';
+	src: url('/assets/fonts/AlexBrush-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'blackjack';
+	src: url('/assets/fonts/blackjack.otf'); 
+}
+@font-face {
+    font-family: 'kaushan';
+	src: url('/assets/fonts/KaushanScript-Regular'); 
+}
+
+.list {
+    color: #fff;
+    cursor: pointer;
+}

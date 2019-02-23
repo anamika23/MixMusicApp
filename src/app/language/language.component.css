@@ -1,0 +1,146 @@
+.tagline{
+    height: 120px;
+    width: 100%;
+    margin: 8% 0 0 0;
+    
+}
+
+.tagline1{
+    margin: auto;
+    font-size: 45px;
+    color: deeppink;
+    text-align: center;
+    font-style: bold;
+    font-family: 'blackjack', sans-serif;
+    font-family: 'alex', sans-serif;
+    font-family: 'greatvibes', sans-serif;
+    font-family: 'arizonia', sans-serif;
+}
+
+.tagline2{
+    margin: auto;
+    font-size: 35px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    font-family: 'blackjack', sans-serif;
+}
+
+.languages{
+    height: 400px;
+    margin: auto;
+    padding: 2px;
+    margin-top:30px;
+}
+
+.languages .eng{
+    width: 150px;
+    height: 150px;;
+    margin: 1%;
+    box-shadow: 2px 4px 16px 2px #00000054;
+    z-index: -1;
+    background-color: Transparent;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    float: left;
+    margin-right: 50px;
+    border:1px solid #fff0f0;
+         
+}
+.languages .eng:hover{
+    width: 150px;
+    height: 150px;;
+    margin: 1%;
+    box-shadow: 2px 4px 16px 2px #fff0f0;
+    z-index: -1;
+    background-color: Transparent;
+    margin-right: 50px;
+}
+
+.languages .hindi{
+    width: 150px;
+    height: 150px;
+    margin: 1%;
+    box-shadow: 2px 4px 16px 2px #00000054;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    float: left;             
+}
+
+.languages .hindi:hover{
+    width: 150px;
+    height: 150px;;
+    margin: 1%;
+    box-shadow: 2px 4px 16px 2px #fff0f0;
+    border-color: white;
+    z-index: -1;
+    background-color: Transparent;
+    
+}
+
+.hindi .img_hindi{
+    width: 120px;
+    height: 120px;
+    float:right;
+    margin: auto;
+
+}
+
+.eng .img_eng{
+    width: 100px;
+    height: 120px;
+    float:right;
+    margin: auto;
+}
+
+.hindi p{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.playerWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playerWrap  p {
+    margin: 0;
+}
+
+.playerWrap .languages {
+    text-align: center;
+    display: flex;
+}
+
+.playerWrap .languages div.eng,.playerWrap .languages div.hindi {
+    float: none;
+    z-index: 2;
+    background: #ff1378;
+    border: 1px solid;
+}
+
+ @font-face {
+       font-family: 'greatvibes';
+	   src: url('/assets/fonts/GreatVibes-Regular.otf'); 
+}
+  @font-face {
+       font-family: 'alex';
+	   src: url('/assets/fonts/AlexBrush-Regular.ttf'); 
+}
+  @font-face {
+       font-family: 'blackjack';
+	   src: url('/assets/fonts/blackjack.otf'); 
+}
+  @font-face {
+       font-family: 'kaushan';
+	   src: url('/assets/fonts/KaushanScript-Regular'); 
+}
+
+ @font-face {
+       font-family: 'arizonia';
+	   src: url('/assets/fonts/Arizonia-Regular.ttf'); 
+}

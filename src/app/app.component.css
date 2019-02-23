@@ -1,0 +1,19 @@
+.container{
+    background-image: url('../assets/bg.jpg');
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    overflow-x: hidden;
+    
+}
+
+.nav{
+    width: 100%; 
+}
+
+.nav .img{
+    margin-top:20px;
+    margin-left:50px;
+}
