@@ -14,6 +14,9 @@ export class PlaylistComponent implements OnInit,AfterViewInit {
   songs: any;
   lang_id:number;
   isRender = false;
+  playedSongsArray=[];
+  originallist=[];
+  playedSongs:any;
 
   constructor(private _dataService: PlaylistService, private route: ActivatedRoute) { }
 
@@ -58,13 +61,18 @@ export class PlaylistComponent implements OnInit,AfterViewInit {
     })
   }
   
- 
+   //play/pause songs from list
   playSong(list) {
     let source = document.getElementById('audio-player');
     let audio: any = document.getElementById('audio');
     source['src'] = list.file;
+    this.playedSongs =list.name;
     audio.load(); //call this to just preload the audio without playing
     audio.play();
-
+    
+    this.playedSongsArray.unshift(this.playedSongs);
+    
   }
+  
+
 }

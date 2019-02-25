@@ -114,3 +114,12 @@ audio {
     color: #fff;
     cursor: pointer;
 }
+.played_songs{
+    box-shadow: 2px 4px 16px 2px  #00000054;
+    padding: 1%;
+    margin: 1%;
+    width: 250px;
+    color: white;
+    min-height: 376px;
+    background-color: rgba(255,255,255,.1);
+}

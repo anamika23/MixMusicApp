@@ -18,7 +18,19 @@
        </div>
     
     </div>
+
+    <div class="played_songs">
+       <h2 class="tag">Recent played songs list</h2>
+       <ul class="list" *ngFor="let list of playedSongsArray | slice:0:05; " (click)="playSong(list)" >
+        <li >
+          <i class="fa fa-play-circle-o"></i>
+          {{list}}
+        </li>
+       </ul>
+    </div>
   </div>
+
+  
 
   <div class="footer">
     <div class="player">
